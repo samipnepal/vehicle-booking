@@ -6,9 +6,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
-/**
- * Created by xyadnep on 4/12/17.
- */
 @Entity
 @Table(name = "credential")
 public class CredentialBean implements Serializable {
